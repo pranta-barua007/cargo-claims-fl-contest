@@ -4,3 +4,24 @@ body {
 }
 
 /* navbar design */
+
+/* hero design */
+.hero {
+    width: 100vw;
+    height: 90vh;
+}
+.hero-steps {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-step {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 15, 15);
+}
