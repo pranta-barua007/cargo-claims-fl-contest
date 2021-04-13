@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 20%;
   left: 22%;
+  color: #ffffff;
 }
 .hero-desc p {
   margin: auto;
@@ -62,3 +63,13 @@ body {
   padding: 0 35px;
   text-align: center;
 }
+
+/* about styles */
+
+/* clients styles */
+.clients {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* contact form */
