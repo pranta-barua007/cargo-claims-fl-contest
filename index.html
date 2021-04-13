@@ -15,6 +15,9 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
     <!-- main css  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 
@@ -71,45 +74,112 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/images/slider/01.jpg" class="d-block w-100" alt="...">
+        <section class="hero">
+            <div class="hero">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/slider/01.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/slider/02.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/slider/01.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/slider/02.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/slider/01.jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
 
-        <div class="container">
-            <div class="row hero-steps">
-                <div class="col-lg-4">
-                    <div class="hero-step">1</div>
+            <div class="container">
+                <div class="hero-desc">
+                    <h1>
+                        SEARCH AIRLINE AND SUBMIT A CLAIM
+                    </h1>
+                    <p>
+                        * Search by IATA /ICAO code or prefix
+                    </p>
                 </div>
-                <div class="col-lg-4">
-                    <div class="hero-step">2</div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="hero-step">3</div>
+                <div class="hero-search">
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input id="search-input" placeholder="search" type="search" id="form1"
+                                class="form-control" />
+                        </div>
+                        <button id="search-button" type="button" class="btn btn-success">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="container">
+                <div class="row hero-steps">
+                    <div class="col-lg-4">
+                        <div class="hero-step">
+                            <h4>
+                                <i class="fas fa-shoe-prints"></i>
+                                Step 1
+                            </h4>
+                            <p>
+                                Complete the claim form and submit!
+                                (no login required)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="hero-step">
+                            <h4>
+                                <i class="fas fa-mail-bulk"></i>
+                                Step 2
+                            </h4>
+                            <p>
+                                Enter Email address of the air line
+                                or select available contacts
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="hero-step">
+                            <h4>
+                                <i class="fas fa-paper-plane"></i>
+                                Step 3
+                            </h4>
+                            <p>
+                                Click on the send email button
+                                & claim copy by email
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./assets/images/about.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>About us</h1>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste officiis non dicta id, voluptatum iure dolor, magni aliquam quia blanditiis praesentium! Excepturi voluptatem quis aperiam? Doloremque rerum asperiores dolores quidem voluptas nisi officia ea sed dolor libero. Tenetur non qui ullam omnis, perspiciatis in, obcaecati hic fugit voluptatum ratione provident. Ipsum molestias maxime quibusdam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
     </main>
     <footer></footer>
