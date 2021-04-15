@@ -24,6 +24,7 @@ body {
 
 /* navbar design */
 
+
 /* hero design */
 .hero {
     position: relative!important; /* dont change everything will break */
@@ -118,6 +119,15 @@ body {
 .contact {
   padding-top: 30px;
 }
+
+.contact input {
+  border-radius: 24px!important;
+}
+
+.contact button {
+  border-radius: 24px!important;
+}
+
 .contact .form-group {
   margin-bottom: 10px;
 }
@@ -125,6 +135,8 @@ body {
 .contact-img {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
 /* clients styles */
@@ -132,4 +144,11 @@ body {
   padding-top: 30px;
   text-align: center;
 }
+
+.clients img {
+  width: 100px;
+  height: 70px;
+}
+
+/* footer */
 

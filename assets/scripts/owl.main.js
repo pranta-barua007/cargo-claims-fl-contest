@@ -2,7 +2,7 @@ jQuery("#carousel").owlCarousel({
     autoplay: true,
     lazyLoad: true,
     rewind: true,
-    margin: 10,
+    margin: 30,
      /*
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
@@ -26,7 +26,7 @@ jQuery("#carousel").owlCarousel({
       },
   
       1366: {
-        items: 6
+        items: 4
       }
     }
   });
