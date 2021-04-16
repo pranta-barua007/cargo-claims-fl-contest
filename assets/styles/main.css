@@ -151,4 +151,27 @@ body {
 }
 
 /* footer */
+footer {
+  margin: 20px 0 0 0;
+  padding: 26px 20px;
+  background-color: rgb(206, 206, 197);
+}
 
+footer a {
+  text-decoration: none;
+  color: #535151;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  color: #535151;
+}
+
+footer hr {
+  background-color: whitesmoke;
+}
+
+footer .quick-links {
+  display: flex;
+  flex-direction: column;
+}
